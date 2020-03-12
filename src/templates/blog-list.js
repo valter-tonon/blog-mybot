@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 import Header from "../components/Header"
 import PostItem from '../components/PostItem'
 import Pagination from "../components/Pagination"
-
 import * as S from '../components/ListWrapper/style'
 
 const BlogList = props => {

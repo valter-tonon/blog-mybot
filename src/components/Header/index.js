@@ -2,20 +2,19 @@ import React from 'react'
 import Logo from '../Logo'
 import HeaderContent from './content'
 import Menu from '../../components/Menu'
-
-import { Wrapper , Div } from './style'
+import * as S from './style'
 
 const Header = ()=>(
-    <Wrapper>
+    <S.Wrapper>
     <Menu/>
-        <Div>
+        <S.Div>
         <div>
             <Logo/>
              </div>
             
-            <HeaderContent/>
+            <HeaderContent />
            
-        </Div>
-    </Wrapper>
+        </S.Div>
+    </S.Wrapper>
 )
 export default Header

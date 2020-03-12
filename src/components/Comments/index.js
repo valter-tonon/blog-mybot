@@ -5,13 +5,13 @@ import ReactDisqusComments from "react-disqus-comments"
 import * as S from "./style"
 
 const Comments = ({ url, title }) => {
-  const completeURL = `http://mybot-mt5.ml.${url}`
+  const completeURL = `https://mybot-blog.netlify.com/${url}`
 
   return (
     <S.CommentsWrapper>
       <S.CommentsTitle>Comentários</S.CommentsTitle>
       <ReactDisqusComments
-        shortname="Mybot"
+        shortname="Mybot blog"
         identifier={completeURL}
         title={title}
         url={completeURL}

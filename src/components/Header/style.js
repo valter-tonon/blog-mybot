@@ -1,8 +1,22 @@
 import styled from 'styled-components'
 import fundo from '../../assets/images/diary.jpg'
 
-export const Div = styled.section`
 
+export const Wrapper = styled.body `
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+    margin: 0;
+    /*padding: 0 10rem 10rem ;*/
+    outline:0;
+    box-sizing : border-box;
+    background-color: transparent;
+    background-image: linear-gradient(90deg ,#7159c1,transparent,#8A2BE2), url(${fundo});
+    background-size: stretch;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+`
+
+export const Div = styled.section`
+    padding: 0 10rem 10rem 10rem;
     display:flex;
    align-items: top;
    margin-top: 3rem;
@@ -29,6 +43,7 @@ export const Div = styled.section`
     h2{
         font-size: 55px;
         font-weight:600;
+        padding-right: 16rem;
     }
     h3{
         font-size: 20px;
@@ -36,49 +51,4 @@ export const Div = styled.section`
     p{
         font-size:18px;
     }
-`
-export const Posts = styled.aside `
-    background: #1fa1f2;
-    width: 100%;
-    height: 200px;
-    border-top: rgba(0,0,0,0.9);
-    
-     div{ 
-          max-width:70rem;
-        max-height: 5rem;
-        justify-content: center;
-        margin-left: 20px;
-        margin-top: 30px;
-     }
-    
-    img{
-        height: 8rem;
-        width: 8rem;
-        border-radius: 50%;
-        justify-content: center;
-
-    }
-    .title{
-        margin-top: -80px;
-        margin-left: 180px;
-        color: #eee;
-    }
-`
-export const Wrapper = styled.body `
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-    margin: 0;
-    padding: 0 10rem 10rem ;
-    outline:0;
-    box-sizing : border-box;
-    background-color: transparent;
-    background-image: linear-gradient(90deg ,#7159c1,transparent,#8A2BE2), url(${fundo});
-    background-size: stretch;
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-
-    
-    
-`
-export const Section = styled.div `
-    margin-top: 100px;
 `
