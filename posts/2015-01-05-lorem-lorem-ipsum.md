@@ -2,9 +2,9 @@
 title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
 date: 2015-01-05T05:54:23.000Z
+thumbnail: assets/img/2.jpg
 category: JS
-background: '#7AAB13'
-thumbnail: assets/img/climate-man-people-street-2027058.jpg
+background: '#2da0c3'
 ---
 # Lorem ipsum
 
@@ -23,7 +23,7 @@ Pellentesque `sed` sapien lorem, at lacinia urna. In hac habitasse platea dictum
 
 ### Cras semper consectetur elementum
 
-![](assets/img/climate-man-people-street-2027058.jpg "Protest")
+![](assets/img/2.jpg "Protest")
 
 Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
 
