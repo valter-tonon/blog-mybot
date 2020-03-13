@@ -1,0 +1,43 @@
+
+
+backend:
+  name: github
+  repo: valter-tonon/blog-mybot
+  branch: master
+
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "image", name: "thumbnail", widget: "image" }
+      - { label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["assuntos gerais","mercado financeiro","tecnologia","mt5"]}
+      - { label: "Background",
+          name : "background" , 
+          widget: "select",
+          options: [
+            {label: "assuntos gerais", value: '#B31917'},
+            {label: "tecnologia", value: '#eb7728'},
+            {label: "mercado financeiro", value: '#2da0c3'},
+            {label: "MT5", value: '#7159c1'}
+          ]}
+      - { label: "Body", name: "body", widget: "markdown" }
+      
