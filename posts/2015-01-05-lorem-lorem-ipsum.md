@@ -1,9 +1,10 @@
 ---
-date: 2015-01-05 05:54:23
 title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
+date: 2015-01-05T05:54:23.000Z
 category: JS
-background: "#7AAB13"
+background: '#7AAB13'
+thumbnail: assets/img/climate-man-people-street-2027058.jpg
 ---
 
 # Lorem ipsum
