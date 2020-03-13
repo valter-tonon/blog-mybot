@@ -7,3 +7,5 @@ category: mercado financeiro
 background: '#eb7728'
 ---
 kkfkfkfddoff
+
+![](assets/img/climate-man-people-street-2027058.jpg)
