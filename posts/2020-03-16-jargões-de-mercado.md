@@ -1,9 +1,6 @@
 ---
 title: JARGÕES DE MERCADO
-description: >-
-  O mercado financeiro, assim como outros ramos de trabalho possuem seus jargões
-  é importante conhecê-los inclusive para se adaptar ao ambiente de trabalho!
-  Vamos conehcer alguns dos mais falados.
+description: 'Vamos conhecer alguns dos mais falados e a importância de compreendê-los '
 date: '2020-03-16 02:17:35'
 thumbnail: assets/img/dicionario_do_investidor1.jpg
 category: mercado financeiro
