@@ -4,7 +4,7 @@ description: 'Vamos conhecer alguns dos mais falados e a importância de compree
 date: '2020-03-16 02:17:35'
 thumbnail: assets/img/dicionario_do_investidor1.jpg
 category: mercado financeiro
-background: '#B31917'
+background: '#2da0c3'
 ---
 Existem algumas palavras utilizadas no mercado financeiro que podem gerar dúvidas ao operador inciante, podendo causar inclusive a desistência por não entender algumas expressões. Apesar da diversidade de palavras  isso não é pode ser motivo para o investidor se assustar.
 
