@@ -1,20 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-
-import imgpost from '../../assets/images/1.jpg'
+import ImgPost from './postImage'
+//import imgpost from '../../assets/images/1.jpg'
 import {PostWrapper, Img, Texts} from './style'
 
 
 
 
-const PostItem = ({slug,category,date,timeToRead,title,description})=> {
+const PostItem = ({slug,category,date,timeToRead,title,description,thumbnail})=> {
    
     
     return(
     <PostWrapper className = 'item'>
     <Img>
-            <img src={imgpost} alt='img Post' />
+            <img src={thumbnail}/>
         </Img>
       <Texts>
             <p><i>Postado em</i> {date} - {timeToRead} min de leitura</p>
@@ -34,7 +34,9 @@ PostItem.propTypes ={
     date:PropTypes.string.isRequired,
     description:PropTypes.string.isRequired,
     timeToRead:PropTypes.string.isRequired,
-    category:PropTypes.string.isRequired
+    category:PropTypes.string.isRequired,
+    
+  
 }
 
 export default PostItem

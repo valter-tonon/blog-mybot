@@ -45,7 +45,7 @@ const BlogList = props => {
           }}
         >
         
-        {postList.map(({node:{frontmatter:{image, description,date, title}
+        {postList.map(({node:{frontmatter:{thumbnail, description,date, title}
           ,timeToRead,
           fields : {slug}}})=>
         ( <PostItem
@@ -53,7 +53,8 @@ const BlogList = props => {
           date={date}
           timeToRead= {timeToRead}
           title={title}
-          description={description}/>
+          description={description}
+          thumbnail={thumbnail}/>
           ))}
         </div>
         <Particles/>
@@ -84,6 +85,7 @@ export const query = graphql`
             category
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
+            thumbnail
             title
           }
           timeToRead

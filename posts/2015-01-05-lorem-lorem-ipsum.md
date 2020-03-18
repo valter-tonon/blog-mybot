@@ -4,12 +4,12 @@ description: And I'm lorem sure lorem
 date: 2015-01-05T05:54:23.000Z
 category: JS
 background: '#7AAB13'
-thumbnail: assets/img/climate-man-people-street-2027058.jpg
+thumbnail: assets/img/2.jpg
 ---
 # Lorem ipsum
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
-
+![](/assets/img/2.jpg)
 ```javascript
 a=3
 puts a
