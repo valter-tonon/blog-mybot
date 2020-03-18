@@ -8,14 +8,14 @@ const Logo = () =>{
             query{
                 LogoImage: file(relativePath: { eq: "Fundologo.png"}){
                     childImageSharp{
-                        fixed(width: 300,height: 300){
-                            ...GatsbyImageSharpFixed
+                        fluid{
+                            ...GatsbyImageSharpFluid
                         }
                     }
                 }
             }
         `
     )
-    return <Logs fixed={LogoImage.childImageSharp.fixed} />
+    return <Logs fluid={LogoImage.childImageSharp.fluid} />
 }
 export default Logo

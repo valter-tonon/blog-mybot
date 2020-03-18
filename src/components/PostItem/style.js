@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const PostWrapper = styled.div `
-    background: #eee;
+    background: transparent;
     padding:0;
     display:flex;
     flex-direction: row;
@@ -13,16 +14,30 @@ export const PostWrapper = styled.div `
     &:hover{
         transform: translateY(-20px);
     }
+    ${media.lessThan("large")`
+        flex-direction: column;
+        margin-left: 2.5rem;
+        display: flex;
+        margin-top: 90px;
+        width: 30rem;
+        height:15rem;
+   `}
     
 `
 export const Img= styled.div `
     
-    width: 50%;
+    width: 50%; 
+    ${media.lessThan("large")`
+       width:25%;
+   `}
     img{
         width:25rem;
         height:100%;
+        ${media.lessThan("large")`
+        width:18rem;
+   `}
     }
-    
+   
 
 `
 export const Texts = styled.div `
@@ -32,6 +47,10 @@ export const Texts = styled.div `
     background: #eeee;
     align-items: center;
     padding: 24px;
+    ${media.lessThan("large")`
+       width:50%;
+       
+   `}
     
     h1,h2,h3{
         color: #222;
@@ -44,6 +63,10 @@ export const Texts = styled.div `
     h2{
         font-size: 30px;
         font-weight: 600;
+       
+        ${media.lessThan("large")`
+            font-size: 20px,
+   `}
     }
     h3{
         margin-top: 20px;

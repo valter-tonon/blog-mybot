@@ -1,5 +1,5 @@
 import styled from "styled-components"
-//import { Link } from "gatsby"
+import media from "styled-media-query"
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 export const RecommendedWrapper = styled.section`
@@ -18,6 +18,13 @@ export const RecommendedLink = styled(AniLink)`
   text-decoration: none;
   transition: background 0.5s;
   width: 50%;
+  
+  ${media.lessThan("large")`
+    padding: 2rem 1rem;
+    line-height: 1.3;
+    font-size: .9rem;
+  `}
+  
   &:hover {
     background:#1fa1f2;
   }

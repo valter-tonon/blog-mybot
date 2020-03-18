@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 export const MenuWrapper = styled.nav `
@@ -7,6 +8,10 @@ export const MenuWrapper = styled.nav `
     display: flex;
     padding: 2rem 10rem;
     justify-content: space-between;
+
+    ${media.lessThan("large")`
+       padding: 1rem;
+   `}
     
  
 
@@ -25,7 +30,9 @@ export const Brand = styled.div`
         color:#444;
         text-decoration: none;
         
-        
+        ${media.lessThan("large")`
+         font-size: 2rem;
+   `}
     }
 `
 export const Div = styled.div `
@@ -47,6 +54,9 @@ display: flex;
             background: #7159c1;
         }
     }
+    ${media.lessThan("large")`
+      height :1.5rem;
+   `}
     `
 
 export const LinkCover = styled(AniLink)`
@@ -63,7 +73,9 @@ export const LinkCover = styled(AniLink)`
         &:hover{
             color: #1fa1f2;
         }
-
+        ${media.lessThan("large")`
+            font-size: 1.3rem;
+   `}
 
 `
 
