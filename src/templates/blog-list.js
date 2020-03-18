@@ -54,7 +54,7 @@ const BlogList = props => {
           timeToRead= {timeToRead}
           title={title}
           description={description}
-          thumbnail={thumbnail}/>
+          image={thumbnail}/>
           ))}
         </div>
         <Particles/>
