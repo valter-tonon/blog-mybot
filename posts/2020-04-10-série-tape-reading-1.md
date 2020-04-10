@@ -22,4 +22,4 @@ Atualmente o Tape Reading está automatizado e existem diversas ferramentas que 
 
 **Fique atento as postagens do nosso blog, envie mensagem com suas dúvidas e sugestões!**
 
-**Att, equipe MyBot**
+**Att,  equipe MyBot**
