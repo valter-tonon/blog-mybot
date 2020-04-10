@@ -7,7 +7,7 @@ import {MenuWrapper,Brand,LinkCover, Div} from './style'
 
 const Menu = () =>(
     <MenuWrapper>
-        <Brand><a href='http://mybot-mt5.ml'>Mybot</a></Brand>
+        <Brand><a href='https://mybot-br.trade/'>Mybot</a></Brand>
         <Div className='procura '>
             <LinkCover to='/'  cover direction="right"
             bg="#16202c" duration= {1}><a>início</a></LinkCover>
