@@ -1,6 +1,9 @@
 ---
 title: 'SÉRIE TAPE READING #2'
-description: Volume At Price e Times & Trades
+description: >-
+  Volume At Price e Times & Trades:Dando continuidade à nossa série Tape
+  Reading, vamos a partir de agora analisar algumas ferramentas disponíveis para
+  a análise de fluxo
 date: '2020-04-29 01:48:18'
 thumbnail: assets/img/whatsapp-image-2020-04-10-at-08.24_edited.jpg
 category: mercado financeiro
