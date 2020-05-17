@@ -1,6 +1,9 @@
 ---
 title: 'SÉRIE TAPE READING #3'
-description: Book de Ofertas
+description: >-
+  Book de Ofertas : Nesse terceiro episódio de tape reading a abordagem será
+  feita da ferramenta Book de Ofertas, que apresenta todas as ofertas de um
+  determinado ativo em cada nível de preço...
 date: '2020-05-17 04:41:01'
 thumbnail: assets/img/whatsapp-image-2020-04-10-at-08.24_edited.jpg
 category: mercado financeiro
