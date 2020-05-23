@@ -4,7 +4,7 @@ description: >-
   Iniciaremos uma série de conteúdos abordando ferramentas do Tape Reading, mas
   primeiro precisamos entender como surgiu essa forma de análise de mercado.
 date: '2020-04-10 07:22:51'
-thumbnail: assets/img/whatsapp-image-2020-04-10-at-08.24_edited.jpg
+thumbnail: /assets/img/whatsapp-image-2020-04-10-at-08.24_edited.jpg
 category: mercado financeiro
 background: '#2da0c3'
 ---
