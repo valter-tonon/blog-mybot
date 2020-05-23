@@ -8,6 +8,7 @@ const Hit = ({ hit })=>(
               date={hit.date}
               description={hit.description}
               category={hit.category}
+                thumbnail={hit.image}
               />
 )
 export default Hit
