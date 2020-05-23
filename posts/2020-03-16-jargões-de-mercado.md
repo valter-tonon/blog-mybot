@@ -2,13 +2,13 @@
 title: JARGÕES DE MERCADO
 description: 'Vamos conhecer alguns dos mais falados e a importância de compreendê-los '
 date: '2020-03-16 02:17:35'
-thumbnail: assets/img/dicionario_do_investidor1.jpg
+thumbnail: /assets/img/dicionario_do_investidor1.jpg
 category: mercado financeiro
 background: '#2da0c3'
 ---
 Existem algumas palavras utilizadas no mercado financeiro que podem gerar dúvidas ao operador inciante, podendo causar inclusive a desistência por não entender algumas expressões. Apesar da diversidade de palavras  isso não é pode ser motivo para o investidor se assustar.
 
-![](assets/img/dicionario_do_investidor1.jpg "Dicionário investidor")
+![](/assets/img/dicionario_do_investidor1.jpg "Dicionário investidor")
 
 Abaixo teremos alguns jargões e termos mais utilizados no mercado financeiro:
 
@@ -42,7 +42,7 @@ Abaixo teremos alguns jargões e termos mais utilizados no mercado financeiro:
 
 **Bola** – quando um numero é redondo utiliza-se a linguagem bolsa, por exemplo 4.000,00 seria 4 bola;
 
-![](assets/img/1593.2.png)
+![](/assets/img/1593.2.png)
 
 Fique atento as postagens do nosso blog, envie mensagem com suas dúvidas e sugestões!
 
